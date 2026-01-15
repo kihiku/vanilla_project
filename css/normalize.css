@@ -124,3 +124,17 @@ input, textarea, button{
     height: auto;
     padding: var(--el-section) 0;
 }
+
+/* Common Button Style */
+.common-button {
+  background: var(--color-black);
+  color: #fff;
+  padding: var(--el-small) var(--el-medium);
+  border-radius: 0.25rem;
+  font-size: var(--fs-14);
+}
+
+
+.common-button:hover {
+  background: var(--color-gray-3);
+}
