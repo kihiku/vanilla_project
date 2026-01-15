@@ -154,3 +154,7 @@ body {
 .common-button:hover{
     background: var(--color-gray-3);
 }
+
+.landing-text-box{
+    padding: var();
+}
