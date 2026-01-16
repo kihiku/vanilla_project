@@ -68,6 +68,26 @@
     #main-section .landing-text-box p{
         width: var(--ls-1-2);
     }
+    /* slide section styles */
+    .slider-section .swiper-slide > div{
+        height: 280px;
+    }
+
+    .slider-section .slider-text h4{
+        font-size: var(--fs-20);
+    }
+
+    .slider-section .slider-nav{
+        width: 45px;
+        height: 45px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+    svg {
+        height: 40%;
+        width: 40%;
+    }
+}
 }
 @media screen and (max-width: 786px) {
     html {
@@ -90,6 +110,39 @@
 
     .meet-section .meet-text-box , .meet-section .meet-text-box p , .meet-section .meet-image-box{
         width: var(--ls-full);
+    }
+
+    .feature-section .features{
+            flex-direction: column;
+            align-items: center;
+    }
+    
+    .feature-section .feature{
+        width: 60%;
+    }
+
+
+    /* slider section styles */
+    .slider-section .slider-nav{
+        display: none;
+    }
+
+    .slider-section .swiper-slide{
+        flex-direction: column;
+    }
+    .slider-section .swiper-slide > div{
+        width: 80%;
+        margin: auto;
+    }
+
+    .slider-section .slider-text{
+        text-align: center;
+        align-items: center;
+    }
+
+    /* offer section style */
+    .offer-section .product-frame{
+        width: var(--ls-1-2);
     }
 }
 
@@ -127,5 +180,21 @@
     
     .meet-section .meet-left-image{
         row-gap: var(--el-normal);
+    }
+
+    /* feafures section styles */
+    .feature-section .feature{
+        width: 90%;
+    }
+
+    
+    /* slider section styles */
+    .slider-section .swiper-slide > div{
+        width: 90%;
+    }
+
+    /* offer section style */
+    .offer-section .product-frame{
+        width: var(--ls-full);
     }
 }
