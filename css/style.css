@@ -297,3 +297,8 @@
     font-size: var(--fs-small-text);
 }
 
+/* review section styles */
+.review-section{
+    background: url(../images/review-background.jpeg) no-repeat center 
+    center / cover;
+}
