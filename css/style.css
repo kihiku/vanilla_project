@@ -257,9 +257,21 @@
     padding: var(--el-medium);
 }
 
+.offer-section .product-img{
+    width: var(--ls-full);
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.25rem;
+}
+
 .offer-section .product-frame img{
     width: var(--ls-full);
     border-radius: 0.25rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .offer-section .product-text{
