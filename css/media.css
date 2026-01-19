@@ -87,6 +87,15 @@
         height: 40%;
         width: 40%;
     }
+
+    /* insta section styles */
+    .insta-section .insta-wrapper{
+        column-gap: var(--el-small);
+    }
+
+    .insta-section .insta-info h4{
+        font-size: var(--fs-name);
+    }
 }
 }
 @media screen and (max-width: 786px) {
@@ -161,6 +170,15 @@
     .review-section .review-item p{
         -webkit-line-clamp: 3;
     }
+
+    /* insta section styles */
+    .insta-section .insta-right-image{
+        display: none;
+    }
+    
+    .insta-section .insta-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 501px) {
@@ -218,5 +236,19 @@
     /* review section styles */
     .review-section .review-frame{
         width: var(--ls-full);
+    }
+
+    /* insta section stylea */
+    .insta-section .insta-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .insta-section .insta-info{
+        /* flex, grid에서 사용할 수 있는 요소의 순서를 정함 */
+        order: 1;
+    }
+
+    .insta-section .insta-left-image{
+        order: 2;
     }
 }
