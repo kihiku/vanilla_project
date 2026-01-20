@@ -22,7 +22,6 @@ mobileMenus.appendChild(info);
 /** mobile menu toggle**/
 const mobileBtn = document.querySelector('.mobile-btn');
 const menuHeight = mobileMenus.scrollHeight;
-console.log(menuHeight);
 
 toggleMobileBtn = (e) => {
     const target = e.currentTarget;
